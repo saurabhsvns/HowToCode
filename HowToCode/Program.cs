@@ -14,7 +14,9 @@ namespace HowToCode
 		{
             Console.WriteLine("Give the number for which factorial is required");
             int input = Convert.ToInt32(Console.ReadLine());
+            //Using BigInteger data type
             GetFactorial(input);
+            //Using Array
             GetFactorial(input, true);
         }        
 
